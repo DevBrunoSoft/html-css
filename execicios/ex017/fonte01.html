@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+            /* shorthand font
+            font-style - font-weight - font-size - font-family
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sequi fugiat quaerat nam. Provident necessitatibus totam, a, nesciunt ipsam rem magnam nisi quibusdam atque voluptas quis dolore iure perferendis autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti adipisci, mollitia aut suscipit nihil facilis ipsam accusamus quos ipsa doloremque officia magnam rerum eum, fuga quidem a hic laborum! Minima? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi sunt provident iusto dolores ipsa, quam expedita laborum vel nemo eius amet, enim dolor obcaecati? Quia amet est nulla minima eaque!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam unde doloribus consequuntur odio esse molestias ut culpa amet excepturi explicabo? Dicta distinctio neque animi veniam quaerat ex libero qui ratione?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita doloremque soluta quasi ipsa magnam labore, explicabo rerum beatae reiciendis nobis officiis nesciunt eum modi omnis saepe accusamus dolor incidunt fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga labore minus libero pariatur est, in a ex repudiandae, nemo harum temporibus. Nostrum officia optio atque dolor eveniet odit explicabo veritatis.</p>
+
+</body>
+</html>
